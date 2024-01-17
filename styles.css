@@ -338,6 +338,50 @@ body {
     margin: 0;
 }
 
+footer {
+    margin-top: 100px;
+    text-align: center;
+    height: 502px;
+    background: rgba(19, 19, 24, 0.05);
+}
+
+.footer-title {
+    padding-top: 110px;
+    color: var(--Dark-01, #131318);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.footer-title span {
+    color: #FF5400;
+}
+
+.footer-para {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.footer-div {
+    display: flex;
+    width: 10%;
+    gap: 30px;
+    margin: 0 auto;
+    margin-bottom: 55px;
+    margin-top: 50px;
+    padding-left: 5%;
+}
+
+.copyright {
+    margin-top: 50px;
+}
+
+footer hr {
+    width: 70%;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+
 
 
 
@@ -519,6 +563,7 @@ body {
     /* media section 4 */
 
     .section-4 {
+        margin-top: 35px;
         width: 100%;
         flex-direction: column;
     }
@@ -551,5 +596,18 @@ body {
 
     .baka-discount {
         font-size: 21px;
+    }
+
+    /* media footer */
+    footer{
+        margin-top: 20px;
+        height: 650px;
+    }
+
+    .footer-div{
+        width: 40%;
+        padding-left: 6%;
+
+        
     }
 }
