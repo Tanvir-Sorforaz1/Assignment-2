@@ -385,6 +385,47 @@ footer hr {
 
 
 
+/* nav styles */
+
+nav {
+    color: #424247;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #menu-icon{
+    display: none;
+  }
+
+  nav h1 {
+    margin: 0;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+
+  nav li {
+    margin: 0 15px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #424247;
+  }
+
+  #nav-title{
+    margin-top: 0;
+    padding-top: 20px;
+  }
+
+
+
+
 
 
 
@@ -608,4 +649,31 @@ footer hr {
         width: 40%;
         padding-left: 6%;
     }
+
+
+
+
+    /* meadia of nav bar */
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+
+      nav ul.show {
+        display: flex;
+      }
+
+      nav li {
+        margin: 10px 0;
+      }
+
+      #menu-icon {
+        display: block;
+      }
 }
