@@ -237,10 +237,14 @@ body {
         padding-left: 20px;
     }
 
-    .left-div-title,
+    .left-div-title{
+        font-size: 25px;
+    }
     .para,
     .left-list {
         padding-right: 25px;
+        
+
     }
 
     .right-div {
